@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav>
+    <nav className='nav'>
       <ul className="nav__list">
         <li className="nav__item">convert</li>
         <li className="nav__item">history</li>

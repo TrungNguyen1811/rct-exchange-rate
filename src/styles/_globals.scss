@@ -68,9 +68,11 @@ body {
   line-height: 1.6;
   color: $color-text-light;
   background: $color-bg-dark;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: calc(100vh - 2 * 4vw);
+  width: 100%;
+}
+
+.container {
+  margin: 0 3.6rem;
 }
 
 h1 {
@@ -79,10 +81,16 @@ h1 {
 
 h2 {
   font-size: 5.653rem;
+  line-height: 5.653rem;
+  letter-spacing: -0.25rem;
+  word-spacing: -1rem;
 }
 
 h3 {
   font-size: 3.998rem;
+  line-height: 3.998rem;
+  letter-spacing: -0.2rem;
+  word-spacing: -0.5rem;
 }
 
 h4 {
@@ -103,10 +111,6 @@ p {
 
 small {
   font-size: 0.707rem;
-}
-
-.container {
-  margin: 0 3.6rem;
 }
 
 tr {
