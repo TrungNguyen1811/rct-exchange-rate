@@ -2,10 +2,10 @@ import Navbar from '../Navbar/Navbar'
 
 function Header() {
   return (
-    <div>
-      <header>exchange rate</header>
+    <header className='header container'>
+      <h3 className='header__heading'>exchange rate</h3>
       <Navbar />
-    </div>
+    </header>
   )
 }
 

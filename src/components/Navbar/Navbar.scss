@@ -1,0 +1,12 @@
+.nav {
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 3.6rem;
+  }
+
+  &__item {
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+}
