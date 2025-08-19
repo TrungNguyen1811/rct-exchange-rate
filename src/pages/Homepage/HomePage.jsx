@@ -1,4 +1,4 @@
-import ExchangeRate from './components/ExchangeRate';
+import ExchangeRate from './components/ExchangeRate/ExchangeRate';
 
 
 export default function HomePage() {
